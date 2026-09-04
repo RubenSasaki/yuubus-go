@@ -1,34 +1,43 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
+    {
+      "source": "/",
+      "destination": "https://www.yuubus.com/",
+      "permanent": false
+    },
+    {
+      "source": "/rutas",
+      "destination": "https://www.yuubus.com/rutas/?utm_source=go&utm_medium=redirect&utm_campaign=rutas",
+      "permanent": false
+    },
     {
       "source": "/android",
       "destination": "https://www.yuubus.com/?utm_source=go&utm_medium=redirect&utm_campaign=android",
       "permanent": false
     },
     {
-      "source": "/ios",
-      "destination": "https://www.yuubus.com/?utm_source=go&utm_medium=redirect&utm_campaign=ios",
-      "permanent": false
-    },
-    {
       "source": "/facebook",
-      "destination": "https://www.yuubus.com/?utm_source=facebook&utm_medium=organic&utm_campaign=lanzamiento",
+      "destination": "https://www.yuubus.com/?utm_source=facebook&utm_medium=organic&utm_campaign=yuubus",
       "permanent": false
     },
     {
       "source": "/instagram",
-      "destination": "https://www.yuubus.com/?utm_source=instagram&utm_medium=organic&utm_campaign=lanzamiento",
+      "destination": "https://www.yuubus.com/?utm_source=instagram&utm_medium=organic&utm_campaign=yuubus",
       "permanent": false
     },
     {
       "source": "/tiktok",
-      "destination": "https://www.yuubus.com/?utm_source=tiktok&utm_medium=organic&utm_campaign=lanzamiento",
+      "destination": "https://www.yuubus.com/?utm_source=tiktok&utm_medium=organic&utm_campaign=yuubus",
       "permanent": false
     },
     {
-      "source": "/rutas",
-      "destination": "https://www.yuubus.com/rutas/?utm_source=go&utm_medium=redirect&utm_campaign=rutas",
+      "source": "/septiembre",
+      "destination": "https://www.yuubus.com/rutas/?utm_source=qr&utm_medium=offline&utm_campaign=septiembre_2026",
+      "permanent": false
+    },
+    {
+      "source": "/centro",
+      "destination": "https://www.yuubus.com/rutas/?utm_source=qr&utm_medium=offline&utm_campaign=centro_oaxaca",
       "permanent": false
     }
   ]
